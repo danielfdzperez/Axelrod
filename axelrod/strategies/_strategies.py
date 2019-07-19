@@ -211,6 +211,7 @@ from .titfortat import (
     TwoTitsForTat,
 )
 from .verybad import VeryBad
+from .rl import RL
 from .worse_and_worse import (
     KnowledgeableWorseAndWorse,
     WorseAndWorse,
@@ -452,4 +453,5 @@ all_strategies = [
     ZDSet2,
     e,
     DynamicTwoTitsForTat,
+    RL,
 ]
